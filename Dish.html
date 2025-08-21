@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-02</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="recipe-card">
+        <h1>Chocolate Cake 🍫</h1>
+        <img src="cake.png" alt="Chocolate Cake" width="300" height="200">
+
+        <button id="toggleIngredients">Show Ingredients</button>
+        <div id="ingredients" class="hidden">
+            <h3>Ingredients</h3>
+            <ul>
+                <li>Flour</li>
+                <li>Sugar</li>
+                <li>Baking powder</li>
+                <li>Salt</li>
+                <li>Eggs</li>
+                <li>Cocoa powder</li>
+                <li>Milk</li>
+                <li>Vegetable oil or Butter</li>
+                <li>Vanilla essence</li>
+                <li>Hot water</li>
+                <li>Chocolate chips</li>
+                <li>Whipped cream</li>
+                <li>Chocolate ganache or frosting</li>
+                <li>Sprinkles</li>
+            </ul>
+        </div>
+
+        <button id="toggleSteps">Show Steps</button>
+        <div id="steps" class="hidden">
+            <h3>Steps to Prepare</h3>
+            <ul id="stepsList">
+                <li>Preheat oven to 180°C (350°F)</li>
+                <li>Grease a baking pan</li>
+                <li>Mix flour, sugar, cocoa, baking powder, salt</li>
+                <li>Mix eggs, milk, oil, vanilla in another bowl</li>
+                <li>Combine wet + dry ingredients → smooth batter</li>
+                <li>Add ½ cup hot water/coffee (optional)</li>
+                <li>Pour into pan</li>
+                <li>Bake for 30–35 mins</li>
+                <li>Cool the cake</li>
+                <li>Add frosting/cream → Serve 🎂</li>
+            </ul>
+            <button id="startCooking">Start Cooking</button>
+            <button id="nextStep" disabled>Next</button>
+        </div>
+
+        <div class="extra-info">
+            <button>Prep Time: 45 mins</button>
+            <button>Servings: 6</button>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
