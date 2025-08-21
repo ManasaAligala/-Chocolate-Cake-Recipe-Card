@@ -11,7 +11,7 @@ This project was developed as part of my internship at Vaults of Codes
 
 📂 Project Structure:
 📁 Chocolate-Cake-Recipe
-│── Dish.html       
+│── index.html       
 │── style.css       
 │── script.js       
 │── cake.png        
