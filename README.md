@@ -1,4 +1,4 @@
-🍫 Chocolate Cake Recipe Card
+🍫 Chocolate Cake Recipe Card:
 An interactive recipe card web app built using HTML, CSS, and JavaScript.
 This project was developed as part of my internship at Vaults of Codes
 
@@ -16,16 +16,16 @@ This project was developed as part of my internship at Vaults of Codes
 │── script.js       
 │── cake.png        
 
-🚀 How to Run
+🚀 How to Run:
 Clone or download this repository.
 Open Dish.html in any modern browser.
 Click Show Ingredients / Show Steps to interact.
 Use Start Cooking + Next Step to follow the recipe.
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
 HTML5 – Structure
 CSS3 – Styling, animation, responsiveness
 JavaScript (ES6) – Interactivity & DOM manipulation
 
-📌 Internship Note
+📌 Internship Note:
 ✅This project was completed as part of my internship at Vaults of Codes.
