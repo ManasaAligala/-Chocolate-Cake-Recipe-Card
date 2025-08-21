@@ -17,10 +17,10 @@ This project was developed as part of my internship at Vaults of Codes
 │── cake.png        
 
 🚀 How to Run
-1.Clone or download this repository.
-2.Open Dish.html in any modern browser.
-3.Click Show Ingredients / Show Steps to interact.
-4.Use Start Cooking + Next Step to follow the recipe.
+Clone or download this repository.
+Open Dish.html in any modern browser.
+Click Show Ingredients / Show Steps to interact.
+Use Start Cooking + Next Step to follow the recipe.
 
 🛠️ Tech Stack
 HTML5 – Structure
